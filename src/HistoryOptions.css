@@ -1,0 +1,24 @@
+.history-options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f5e9;
+}
+
+.history-option-button {
+    background-color: #8BC34A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.history-option-button:hover {
+    background-color: #7cb342;
+}
